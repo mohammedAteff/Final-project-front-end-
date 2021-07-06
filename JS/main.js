@@ -20,7 +20,9 @@ function topFunction() {
 
 
 $(document).ready(function() {
-
+    $('.overlay').click(function() {
+        $('.overlay').fadeToggle();
+    });
 
 
 
